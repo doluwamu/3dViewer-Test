@@ -6,9 +6,7 @@ module.exports = {
   mode: "development",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "index_bundle.js",
-    library: "$",
-    libraryTarget: "umd",
+    filename: "bundle.js",
   },
   module: {
     rules: [
@@ -23,7 +21,7 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/i,
+        test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
       {
