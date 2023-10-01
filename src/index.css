@@ -1,4 +1,16 @@
-#view {
+@import "./css/controls.css";
+@import "./css/core.css";
+@import "./css/dialogs.css";
+@import "./css/embed.css";
+@import "./css/icons.css";
+@import "./css/navigator.css";
+@import "./css/panelset.css";
+@import "./css/sidebar.css";
+@import "./css/themes.css";
+@import "./css/treeview.css";
+@import "./css/website.css";
+
+#viewer {
   background-color: green;
   padding: 30px;
 }
